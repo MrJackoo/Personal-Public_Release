@@ -1,0 +1,89 @@
+html::-webkit-scrollbar {
+    display: none;
+}
+
+@media (width: 3840px) and (height: 2160px) {
+    .success {
+        background-color: #00751bee;
+        border-radius: 5px;
+        font-size: 1.0vh;
+        margin-right: 20vh;
+    }
+    
+    .primary {
+        background-color: #303030ef;
+        border-radius: 5px;
+        font-size: 1.0vh;
+        margin-right: 20vh;
+    }
+    
+    .error {
+        background-color: #77000cf3;
+        border-radius: 5px;
+        font-size: 1.0vh;
+        margin-right: 20vh;
+    }
+    
+    .police {
+        background-color: #2197f2f1;
+        border-radius: 5px;
+        font-size: 1.0vh;
+        margin-right: 20vh;
+    }
+    
+    .ambulance {
+        background-color: #db8f00ef;
+        border-radius: 5px;
+        font-size: 1.0vh;
+        margin-right: 20vh;
+    }
+
+    .ping {
+        background-color: #5d106def;
+        border-radius: 5px;
+        font-size: 1.0vh;
+        margin-right: 20vh;
+    }
+}
+
+.success {
+    background-color: #00751bee;
+    border-radius: 5px;
+    font-size: 1.0vh;
+    margin-right: 20vh;
+}
+
+.primary {
+    background-color: #303030ef;
+    border-radius: 5px;
+    font-size: 1.0vh;
+    margin-right: 20vh;
+}
+
+.error {
+    background-color: #77000cf3;
+    border-radius: 5px;
+    font-size: 1.0vh;
+    margin-right: 20vh;
+}
+
+.police {
+    background-color: #2197f2f1;
+    border-radius: 5px;
+    font-size: 1.0vh;
+    margin-right: 20vh;
+}
+
+.ambulance {
+    background-color: #db8f00ef;
+    border-radius: 5px;
+    font-size: 1.0vh;
+    margin-right: 20vh;
+}
+
+.ping {
+    background-color: #5d106def;
+    border-radius: 5px;
+    font-size: 1.0vh;
+    margin-right: 20vh;
+}

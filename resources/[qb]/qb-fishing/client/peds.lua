@@ -1,0 +1,28 @@
+-- --============================================================== Exports
+
+-- exports[Config.targetExport]:AddTargetModel(`s_m_y_busboy_01`, {
+--     options = {
+--         {
+--             event = "doj:client:SellLegalFish",
+--             icon = "fa fa-fish",
+--             label = "Sell Fish",
+--         },
+-- 		{
+--             event = "doj:client:SellillegalFish",
+--             icon = "fa fa-fish",
+--             label = "Sell Exotic Fish",
+--         },
+--         -- {
+--         --     event = "doj:client:BoatMenu",
+--         --     icon = "fas fa-anchor",
+--         --     label = "Boat Rental",
+--         --     location = 1 --LaPuerta
+--         -- },
+-- 		{
+--             event = "jacko_fishing:openshop",
+--             icon = "fas fa-fish",
+--             label = "Fishing Gear",
+--         },
+--     },
+--     distance = 10.0
+-- })

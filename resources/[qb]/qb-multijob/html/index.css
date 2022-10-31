@@ -1,0 +1,282 @@
+html {
+    user-select: none;
+    position: absolute;
+    right: 100px;
+    bottom: 30px;
+}
+
+body {
+    display: none;
+}
+
+h3,
+h4,
+h5 {
+    font-weight: lighter;
+    color: white;
+    margin-left: 6px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+h4 {
+    margin: 0 0 0 2px;
+    font-size: 1em;
+    line-height: 15px;
+}
+
+h5 {
+    line-height: 15px;
+    margin: 0 0 0 2px;
+    font-size: 12px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    width: 500px;
+    background-color: #262626;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+
+/*=========*/
+
+
+/* Top Bar */
+
+
+/*=========*/
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    background-color: #363636;
+    color: #005892;
+    align-items: center;
+}
+
+.exit {
+    position: absolute;
+    margin-top: 2px;
+    right: 30px;
+    color: white;
+    font-size: 25px;
+    transition: all .1s linear;
+}
+
+.exit:hover {
+    cursor: pointer;
+    color: #00406b;
+}
+
+.exit:active {
+    color: #005892;
+}
+
+.icon {
+    font-size: 19px;
+    color: #008fed;
+}
+
+.red-bar {
+    width: 5px;
+    height: 100%;
+    background-color: #005892;
+    margin-right: 13px;
+}
+
+
+/*==========*/
+
+
+/* Off Duty */
+
+
+/*==========*/
+
+.off-duty {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 40px;
+    background-color: #444444;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.off-duty>div {
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+}
+
+.off-duty>.button {
+    margin-right: 13px;
+}
+
+
+/*==============*/
+
+
+/* Jobs section */
+
+
+/*==============*/
+
+.jobs-container> ::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+/* Track */
+
+.jobs-container> ::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+.jobs-container> ::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+.jobs-container> ::-webkit-scrollbar-thumb:hover {
+    background: lightgray;
+}
+
+.jobs-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 90%;
+    overflow-y: hidden;
+    margin: 0 auto 10px auto;
+}
+
+.jobs {
+    display: grid;
+    flex-direction: column;
+    background-color: #444444;
+    overflow-y: scroll;
+}
+
+.jobs div:last-of-type {
+    margin-bottom: 0;
+}
+
+.jobs-container>.grey-bar {
+    position: relative;
+    min-height: 10px;
+    width: 100%;
+    background-color: #444444;
+}
+
+.job {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px 10px 10px;
+    height: 45px;
+    min-height: 45px;
+    background-color: #373737;
+}
+
+.job-money {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.job>div {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.badge-info {
+    padding-left: 10px;
+}
+
+.money-select {
+    padding-left: 0;
+}
+
+.job-selectButton {
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.job-icon {
+    color: white;
+    font-size: 13px;
+}
+
+.job-info {
+    margin-left: 10px;
+}
+
+
+/*========*/
+
+
+/* Button */
+
+
+/*========*/
+
+.button {
+    width: 55px;
+    border: none;
+    border-radius: 5px;
+    background-color: #005892;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    height: 25px;
+    transition: all .1s linear;
+}
+
+.half-button {
+    width: 26px;
+    border: none;
+    border-radius: 5px;
+    background-color: #005892;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    height: 25px;
+    transition: all .1s linear;
+}
+
+.button:hover,
+.half-button:hover {
+    cursor: pointer;
+    background-color: #034068;
+}
+
+.button:active,
+.half-button:active {
+    background-color: #005892;
+}
+
+.button>i {
+    color: white;
+    font-size: 15px;
+}

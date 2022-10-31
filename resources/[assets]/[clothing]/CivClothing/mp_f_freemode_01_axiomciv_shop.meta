@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShopPedApparel>
+	<pedName>mp_f_freemode_01</pedName>
+	<dlcName>axiomciv</dlcName>
+	<fullDlcName>mp_f_freemode_01_axiomciv</fullDlcName>
+	<eCharacter>SCR_CHAR_MULTIPLAYER_F</eCharacter>
+	<creatureMetaData>mp_creaturemetadata_axiomciv_f</creatureMetaData>
+	
+	<pedOutfits/>
+	<pedComponents/>	
+	<pedProps/>
+	
+</ShopPedApparel>

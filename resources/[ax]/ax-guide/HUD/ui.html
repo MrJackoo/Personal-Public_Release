@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- FontAwesome -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <!-- Game JQuery -->
+  <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+  <style>
+    .jumbotron {
+      display: none;
+    }
+  </style>
+  <script>
+    $(function () {
+      $(document).keyup(function (e) {
+        if (e.keyCode == 27) {
+          $('.jumbotron').fadeOut();
+          $.post('https://ax-guide/closeGuideHud', JSON.stringify({}));
+        }
+      });
+
+      window.addEventListener('message', function (event) {
+        if (event.data.type == "openGuideHud") {
+          $('.jumbotron').fadeIn();
+        }
+      });
+
+      $("#exit_gui").click(() => {
+        $('.jumbotron').fadeOut();
+        $.post('https://ax-guide/closeGuideHud', JSON.stringify({}));
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="jumbotron vertical-center">
+    <div class="container">
+      <nav class="navbar">
+        <span class="navbar-brand"></span>
+        <div id="exit_gui">
+          <i class="fa fa-times"></i>
+        </div>
+      </nav>
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+            aria-controls="pills-home" aria-selected="true">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-rules-tab" data-toggle="pill" href="#pills-rules" role="tab"
+            aria-controls="pills-rules" aria-selected="false">Rules</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-controls-tab" data-toggle="pill" href="#pills-controls" role="tab"
+            aria-controls="pills-controls" aria-selected="false">Help & Controls</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+
+        <!-- Home Tab -->
+        <div class="tab-pane home-tab fade show active" id="pills-home" role="tabpanel"
+          aria-labelledby="pills-home-tab">
+          <h1></h1>
+          <ul>
+
+          </ul>
+          <h2>Press <kbd></kbd> in game to bring up this menu at any time.</h2>
+        </div>
+
+        <!-- RULES TAB -->
+        <div class="tab-pane fade show" id="pills-rules" role="tabpanel" aria-labelledby="pills-rules-tab">
+
+          <!-- Rules Inner Tabs -->
+          <div class="nav flex-column nav-pills inner-tabs" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+            <a class="nav-link nav-link-inner active" id="v-pills-guidelines-tab" data-toggle="pill"
+              href="#v-pills-guidelines" role="tab" aria-controls="v-pills-guidelines" aria-selected="true">General
+              Rules</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-general-conduct-tab" data-toggle="pill"
+              href="#v-pills-general-conduct" role="tab" aria-controls="v-pills-general-conduct"
+              aria-selected="false">General Conduct</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-chatrules-tab" data-toggle="pill" href="#v-pills-chatrules"
+              role="tab" aria-controls="v-pills-chatrules" aria-selected="false">Roleplay</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-rdmvdm-tab" data-toggle="pill" href="#v-pills-rdmvdm"
+              role="tab" aria-controls="v-pills-rdmvdm" aria-selected="false">RDM/VDM</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-meta-powergaming-tab" data-toggle="pill"
+              href="#v-pills-meta-powergaming" role="tab" aria-controls="v-pills-meta-powergaming"
+              aria-selected="false">Metagaming / Powergaming</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-newlife-tab" data-toggle="pill" href="#v-pills-newlife"
+              role="tab" aria-controls="v-pills-newlife" aria-selected="false">New Life Rule (NLR)</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-combat-tab" data-toggle="pill" href="#v-pills-combat"
+              role="tab" aria-controls="v-pills-combat" aria-selected="false">Combat Storing / Logging and
+              Teleporting</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-exploits-tab" data-toggle="pill" href="#v-pills-exploits"
+              role="tab" aria-controls="v-pills-exploits" aria-selected="false">Bug Abusing, Exploiting and Hacking</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-crims-tab" data-toggle="pill" href="#v-pills-crims"
+              role="tab" aria-controls="v-crims-exploits" aria-selected="false">Criminal Activities/Police Response</a>
+          </div>
+
+          <div class="tab-content tab-content-inner" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-guidelines" role="tabpanel"
+              aria-labelledby="v-pills-guidelines-tab">
+
+              <!-- Guideline Rules -->
+            </div>
+
+            <!-- General Conduct Rules -->
+            <div class="tab-pane fade" id="v-pills-general-conduct" role="tabpanel"
+              aria-labelledby="v-pills-general-conduct-tab">
+            </div>
+
+            <!-- Role Playing Rules -->
+            <div class="tab-pane fade" id="v-pills-chatrules" role="tabpanel" aria-labelledby="v-pills-chatrules-tab">
+            </div>
+
+            <!-- RDM/VDM Rules -->
+            <div class="tab-pane fade" id="v-pills-rdmvdm" role="tabpanel" aria-labelledby="v-pills-rdmvdm-tab">
+            </div>
+
+            <!-- Meta/Power Gaming Rules -->
+            <div class="tab-pane fade" id="v-pills-meta-powergaming" role="tabpanel"
+              aria-labelledby="v-pills-meta-powergaming-tab">
+            </div>
+
+            <!-- New Life Rules -->
+            <div class="tab-pane fade" id="v-pills-newlife" role="tabpanel" aria-labelledby="v-pills-newlife-tab">
+            </div>
+
+            <!-- Combat logging Rules -->
+            <div class="tab-pane fade" id="v-pills-combat" role="tabpanel" aria-labelledby="v-pills-combat">
+            </div>
+
+            <!-- Abuse/Exploit Rules -->
+            <div class="tab-pane fade" id="v-pills-exploits" role="tabpanel" aria-labelledby="v-pills-exploits">
+            </div>
+
+            <!-- Crims Rules -->
+            <div class="tab-pane fade" id="v-pills-crims" role="tabpanel" aria-labelledby="v-pills-crims">
+            </div>
+
+          </div>
+          <!-- End Rules Inner Tabs -->
+        </div>
+
+        <!-- CONTROLS TAB -->
+        <div class="tab-pane fade" id="pills-controls" role="tabpanel" aria-labelledby="pills-controls-tab">
+          <!-- Controls Inner Tabs -->
+          <div class="nav flex-column nav-pills inner-tabs" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+            <a class="nav-link nav-link-inner" id="v-pills-general-tab" data-toggle="pill"
+              href="#v-pills-general" role="tab" aria-controls="v-pills-general" aria-selected="true">General Gameplay
+              Controls</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-chat-tab" data-toggle="pill" href="#v-pills-chat" role="tab"
+              aria-controls="v-pills-chat" aria-selected="false">General Chat Commands</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-vehicles-tab" data-toggle="pill" href="#v-pills-vehicles"
+              role="tab" aria-controls="v-pills-vehicles" aria-selected="false">Vehicle Controls</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-jobs-tab" data-toggle="pill" href="#v-pills-jobs" role="tab"
+              aria-controls="v-pills-jobs" aria-selected="false">Job & Misc Controls</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-interactions-tab" data-toggle="pill"
+              href="#v-pills-interactions" role="tab" aria-controls="v-pills-interactions"
+              aria-selected="false">Interactions</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-emergency-tab" data-toggle="pill" href="#v-pills-emergency"
+              role="tab" aria-controls="v-pills-emergency" aria-selected="false">Police/NHS Hotkeys</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-cityhall-tab" data-toggle="pill"
+              href="#v-pills-cityhall" role="tab" aria-controls="v-pills-cityhall" aria-selected="false">City Hall
+              Jobs</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-legaljobs-tab" data-toggle="pill" href="#v-pills-legaljobs"
+              role="tab" aria-controls="v-pills-legaljobs" aria-selected=" false">Legal
+              Jobs</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-emergencyservices-tab" data-toggle="pill"
+              href="#v-pills-emergencyservices" role="tab" aria-controls="v-pills-emergencyservices"
+              aria-selected="false">Emergency Services</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-vehiclehelp-tab" data-toggle="pill"
+            href="#v-pills-vehiclehelp" role="tab" aria-controls="v-pills-vehiclehelp" aria-selected="false">Vehicle
+            Help</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-common-tab" data-toggle="pill" href="#v-pills-common"
+              role="tab" aria-controls="v-pills-common" aria-selected="false">Common Q&A</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-gamehelp-tab" data-toggle="pill" href="#v-pills-gamehelp"
+              role="tab" aria-controls="v-pills-gamehelp" aria-selected="false">In-Game Help</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-cache-tab" data-toggle="pill" href="#v-pills-cache"
+              role="tab" aria-controls="v-pills-cache" aria-selected="false">Client
+              Cache</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-reportaplayer-tab" data-toggle="pill"
+              href="#v-pills-reportaplayer" role="tab" aria-controls="v-pills-reportaplayer"
+              aria-selected="false">Report a Player</a>
+
+            <a class="nav-link nav-link-inner" id="v-pills-links-tab" data-toggle="pill" href="#v-pills-links"
+              role="tab" aria-controls="v-pills-links" aria-selected="false">Helpful Links</a>
+
+          </div>
+
+          <div class="tab-content tab-content-inner" id="v-pills-tabContent">
+
+            <!-- General Hotkeys -->
+            <div class="tab-pane fade show active" id="v-pills-general" role="tabpanel"aria-labelledby="v-pills-general-tab">
+            </div>
+
+            <!-- RP Hotkeys -->
+            <div class="tab-pane fade" id="v-pills-chat" role="tabpanel" aria-labelledby="v-pills-chat-tab">
+            </div>
+
+            <!-- Vehicle Hotkeys -->
+            <div class="tab-pane fade" id="v-pills-vehicles" role="tabpanel" aria-labelledby="v-pills-vehicles-tab">
+            </div>
+
+            <!-- Help Hotkeys -->
+            <div class="tab-pane fade" id="v-pills-helpchat" role="tabpanel" aria-labelledby="v-pills-helpchat-tab">
+            </div>
+
+            <!-- Job Hotkeys -->
+            <div class="tab-pane fade" id="v-pills-jobs" role="tabpanel" aria-labelledby="v-pills-jobs-tab">
+            </div>
+
+            <!-- Interactions -->
+            <div class="tab-pane fade" id="v-pills-interactions" role="tabpanel"aria-labelledby="v-pills-interactions-tab">
+            </div>
+
+            <!-- Emergency -->
+            <div class="tab-pane fade" id="v-pills-emergency" role="tabpanel" aria-labelledby="v-pills-emergency-tab">
+            </div>
+
+            <!-- City Hall -->
+            <div class="tab-pane fade" id="v-pills-cityhall" role="tabpanel"aria-labelledby="v-pills-cityhall-tab">
+            </div>
+
+            <!-- Legal -->
+            <div class="tab-pane fade" id="v-pills-legaljobs" role="tabpanel" aria-labelledby="v-pills-legaljobs-tab">
+            </div>
+
+            <!-- Police/NHS -->
+            <div class="tab-pane fade" id="v-pills-emergencyservices" role="tabpanel"aria-labelledby="v-pills-emergencyservices-tab">
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-vehiclehelp" role="tabpanel"aria-labelledby="v-pills-vehiclehelp-tab">
+            </div>
+            
+            <div class="tab-pane fade" id="v-pills-common" role="tabpanel" aria-labelledby="v-pills-common-tab">
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-gamehelp" role="tabpanel" aria-labelledby="v-pills-gamehelp-tab">
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-cache" role="tabpanel" aria-labelledby="v-pills-cache-tab">
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-reportaplayer" role="tabpanel"aria-labelledby="v-pills-reportaplayer-tab">
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-links" role="tabpanel" aria-labelledby="v-pills-links-tab">
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom JS -->
+  <script src="../assets/js/app.js"></script>
+  <script src="../config.js"></script>
+
+  <!-- Bootstrap Includes -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

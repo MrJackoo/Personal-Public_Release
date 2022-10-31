@@ -1,0 +1,113 @@
+
+
+-- -- PRBGate created by Johnny
+-- Config.DoorList['PoggyRedsGang-PRBGate'] = {
+--     doorLabel = 'PRBGate',
+--     authorizedGangs = { ['prb'] = 0 },
+--     locked = true,
+--     doorType = 'sliding',
+--     objName = 16476147,
+--     objYaw = 320.00726318359,
+--     doorRate = 1.0,
+--     fixText = false,
+--     objCoords = vec3(-43.729622, -1831.847290, 25.336128),
+--     distance = 5,
+-- }
+
+-- -- PRBGate created by Johnny
+-- Config.DoorList['PoggyRedsGang-PRBGate'] = {
+--     doorLabel = 'PRBGate',
+--     authorizedGangs = { ['prb'] = 0 },
+--     locked = true,
+--     doorRate = 1.0,
+--     doorType = 'sliding',
+--     doors = {
+--         {objName = 16476147, objYaw = 140.00329589844, objCoords = vec3(-52.212902, -1824.716431, 25.587618)},
+--         {objName = 16476147, objYaw = 320.00726318359, objCoords = vec3(-43.729622, -1831.847290, 25.336128)}
+--     },
+--     distance = 5,
+-- }
+
+-- -- PRBGaragedoor created by Johnny
+-- Config.DoorList['PoggyRedsGang-PRBGaragedoor'] = {
+--     doorLabel = 'PRBGaragedoor',
+--     authorizedGangs = { ['prb'] = 0 },
+--     locked = true,
+--     doorType = 'garage',
+--     objName = 541478252,
+--     objYaw = 49.999996185303,
+--     doorRate = 1.0,
+--     fixText = false,
+--     objCoords = vec3(-74.438446, -1822.278809, 27.914139),
+--     distance = 5,
+-- }
+
+-- -- PRBwashgate created by Johnny
+-- Config.DoorList['PoggyRedsGang-PRBwashgate'] = {
+--     doorLabel = 'PRBwashgate',
+--     authorizedGangs = { ['prb'] = 0 },
+--     locked = true,
+--     doorType = 'door',
+--     objName = -2027976004,
+--     objYaw = 319.99993896484,
+--     doorRate = 1.0,
+--     fixText = false,
+--     objCoords = vec3(-97.433861, -1795.265503, 27.072824),
+--     distance = 2,
+-- }
+
+-- -- PRBganjgrow created by Johnny
+-- Config.DoorList['PoggyRedsGang-PRBganjgrow'] = {
+--     doorLabel = 'PRBganjgrow',
+--     authorizedGangs = { ['prb'] = 0 },
+--     locked = true,
+--     doorType = 'door',
+--     objName = 1358967577,
+--     objYaw = 50.0,
+--     doorRate = 1.0,
+--     fixText = false,
+--     objCoords = vec3(-116.468475, -1797.568970, 25.949772),
+--     distance = 2,
+-- }
+
+-- -- PRBtortureroom created by Johnny
+-- Config.DoorList['PoggyRedsGang-PRBtortureroom'] = {
+--     doorLabel = 'PRBtortureroom',
+--     authorizedGangs = { ['prb'] = 0 },
+--     locked = true,
+--     doorType = 'door',
+--     objName = 1358967577,
+--     objYaw = 140.00006103516,
+--     doorRate = 1.0,
+--     fixText = false,
+--     objCoords = vec3(-124.477463, -1792.951416, 23.596367),
+--     distance = 2,
+-- }
+
+-- -- PRBgaffas created by Johnny
+-- Config.DoorList['PoggyRedsGang-PRBgaffas'] = {
+--     doorLabel = 'PRBgaffasoffice',
+--     authorizedGangs = { ['prb'] = 0 },
+--     locked = true,
+--     doorType = 'door',
+--     objName = 1358967577,
+--     objYaw = 230.0,
+--     doorRate = 1.0,
+--     fixText = false,
+--     objCoords = vec3(-108.656418, -1782.817871, 27.634111),
+--     distance = 2,
+-- }
+
+-- -- PRBmeetingroom created by Johnny
+-- Config.DoorList['PoggyRedsGang-PRBmeetingroom'] = {
+--     doorLabel = 'PRBmeetingroom',
+--     authorizedGangs = { ['prb'] = 0 },
+--     locked = true,
+--     doorRate = 1.0,
+--     doorType = 'double',
+--     doors = {
+--         {objName = 1358967577, objYaw = 50.0, objCoords = vec3(-103.926399, -1801.455078, 30.142199)},
+--         {objName = 1358967577, objYaw = 230.0, objCoords = vec3(-102.278931, -1799.491821, 30.142199)}
+--     },
+--     distance = 2,
+-- }

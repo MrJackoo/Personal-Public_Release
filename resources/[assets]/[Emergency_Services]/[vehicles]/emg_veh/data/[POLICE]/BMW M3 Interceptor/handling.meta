@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CHandlingDataMgr>
+  <HandlingData>
+    <Item type="CHandlingData">
+      <handlingName>polbmwm3</handlingName>
+      <fMass value="1800.00000000" />
+      <fInitialDragCoeff value="7.80000019" />
+      <fPercentSubmerged value="85.00000000" />
+      <vecCentreOfMassOffset x="0.00000000" y="0.00000000" z="0.00000000" />
+      <vecInertiaMultiplier x="1.00000000" y="1.29999995" z="1.50000000" />
+      <fDriveBiasFront value="0.20000000" />
+      <nInitialDriveGears value="7" />
+      <fInitialDriveForce value="0.90170002" />
+      <fDriveInertia value="1.00000000" />
+      <fClutchChangeRateScaleUpShift value="3.00000000" />
+      <fClutchChangeRateScaleDownShift value="3.00000000" />
+      <fInitialDriveMaxFlatVel value="225.00000000" />
+      <fBrakeForce value="1.00000000" />
+      <fBrakeBiasFront value="0.44999999" />
+      <fHandBrakeForce value="0.69999999" />
+      <fSteeringLock value="42.00000000" />
+      <fTractionCurveMax value="2.50000000" />
+      <fTractionCurveMin value="2.38000011" />
+      <fTractionCurveLateral value="22.50000000" />
+      <fTractionSpringDeltaMax value="0.15000001" />
+      <fLowSpeedTractionLossMult value="1.50000000" />
+      <fCamberStiffnesss value="0.00000000" />
+      <fTractionBiasFront value="0.48500001" />
+      <fTractionLossMult value="1.00000000" />
+      <fSuspensionForce value="2.40000010" />
+      <fSuspensionCompDamp value="1.39999998" />
+      <fSuspensionReboundDamp value="2.09999990" />
+      <fSuspensionUpperLimit value="0.12000000" />
+      <fSuspensionLowerLimit value="-0.10000000" />
+      <fSuspensionRaise value="0.00000000" />
+      <fSuspensionBiasFront value="0.50000000" />
+      <fAntiRollBarForce value="0.89999998" />
+      <fAntiRollBarBiasFront value="0.60000002" />
+      <fRollCentreHeightFront value="0.41000000" />
+      <fRollCentreHeightRear value="0.41000000" />
+      <fCollisionDamageMult value="0.83666003" />
+      <fWeaponDamageMult value="0.18750000" />
+      <fDeformationDamageMult value="0.69999999" />
+      <fEngineDamageMult value="1.27542448" />
+      <fPetrolTankVolume value="65.000000" />
+      <fOilVolume value="5.00000000" />
+      <fSeatOffsetDistX value="0.00000000" />
+      <fSeatOffsetDistY value="0.00000000" />
+      <fSeatOffsetDistZ value="0.00000000" />
+      <nMonetaryValue value="35000" />
+      <strModelFlags>440010</strModelFlags>
+      <strHandlingFlags>0</strHandlingFlags>
+      <strDamageFlags>0</strDamageFlags>
+      <AIHandling>AVERAGE</AIHandling>
+      <SubHandlingData>
+          <Item  type="CCarHandlingData">
+              <fBackEndPopUpCarImpulseMult value="0.100000" />
+              <fBackEndPopUpBuildingImpulseMult value="0.030000" />
+              <fBackEndPopUpMaxDeltaSpeed value="0.600000" />
+          </Item>
+          <Item  type="NULL" />
+          <Item  type="NULL" />
+      </SubHandlingData>
+    </Item>
+  </HandlingData>
+</CHandlingDataMgr>

@@ -1,0 +1,1 @@
+-- https://forum.fivem.net/t/how-to-disable-aggressive-npcs-in-sandy-shores/62822/2

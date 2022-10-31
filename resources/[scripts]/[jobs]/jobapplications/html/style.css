@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+	font-family: 'Roboto'
+}
+body {
+	background: none !important;
+}
+
+#heading {
+    text-align: center;
+    margin-top: none;
+    margin-bottom: none;
+}
+#container {
+	font-size: 15px;
+	padding: 25px;
+	color: white;
+	position: fixed;
+	top: 50vh;
+	left: 50vw;
+	transform: translate(-50%, -50%);
+	background-color: rgba(44, 44, 44, 0.9);
+	height: auto;
+	width: auto;
+	border: 1px solid rgb(63, 62, 62);
+	border-radius: 5px;
+}
+p:hover {
+	text-decoration: underline;
+	text-shadow: 1.0px 1.0px black;
+}
+#textareas {
+	border-radius: 5px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+#checkboxarea {
+    border-radius: 0px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+#firstname, #lastname, #phone_number {
+    text-align: center;
+}
+
+h3 {
+	font-family: 'Roboto';
+    margin-bottom: 2px;
+    margin-top: 2px;
+	color: white;
+    text-align: center;
+}
+
+textarea {
+	display: inline-block;
+    resize: none;
+    width: 80%;
+	font-family: 'Roboto';
+    padding-top: 0px;
+    padding-bottom: 0px;
+	color: white;
+	background-color: rgba(255, 255, 255, 0.466);
+}
+
+input {
+	display: inline-block;
+	font-family: 'Roboto';
+    padding-top: 0px;
+    width: 80%;
+    padding-bottom: 0px;
+	background-color: rgba(255, 255, 255, 0.466);
+}
+
+checkbox {
+	display: inline-block;
+	font-family: 'Roboto';
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding: 2px;
+	color: red;
+	background-color: rgba(255, 255, 255, 0.466);
+}
+
+#buttons {
+	margin-top: 0px;
+	text-align: center;
+}
+
+button {
+	display: inline-block;
+	color: white;
+	margin-top: 5px;
+    margin-bottom: 0px;
+	padding: 5px;
+}
+button#submit {
+	background-color: #02ff2c;
+}
+button#close {
+	background-color: #b80c00;
+}

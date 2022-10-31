@@ -1,0 +1,35 @@
+body {
+    overflow: hidden;
+}
+
+#target-eye {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 2.3vh;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+#target-label-wrapper {
+    position: absolute;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    left: 52.0%;
+    width: fit-content;
+    height: 100%;
+    top: 50.0%;
+}
+
+#target-label {
+    list-style: none;
+    font-size: 1.4vh;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: white;
+    user-select: none;
+    white-space: nowrap;
+    text-shadow: 0.1vh 0.1vh 0.00vh #000000;
+}

@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="container" style="display: none">
+        <h1 id="heading">None</h1>
+        <form id="form">
+            <p id="firstname">None</p>
+            <p id="lastname">None</p>
+            <p id="phone_number">None</p>
+            <h3>Discord ID and # (example Jacko#2098)</h3>
+            <div id="textareas">
+                <input type="text" name="DiscordID" id="input_discord", class="discordtext">
+            </div>
+            <h3>Age</h3>
+            <div id="textareas">
+                <input type="text" name="Age" id="input_age", class="agetext">
+            </div>
+            <h3>Why would you like to join?</h3>
+            <div id="textareas">
+                <textarea rows="4" cols="50" class="textarea" id="textarea_whyjoin"></textarea>
+            </div>
+            <h3>What qualities can you bring?</h3>
+            <div id="textareas">
+                <textarea rows="4" cols="50" class="textarea" id="textarea_qualities"></textarea>
+            </div>
+            <h3>Do you have any previous experience?</h3>
+            <div id="textareas">
+                <textarea rows="4" cols="50" class="textarea" id="textarea_exp"></textarea>
+            </div>
+            <h3>Are you in the discord</h3>
+            <div id="checkboxarea">
+                <input type="checkbox" id="checkbox_comm" class="checkbox">
+            </div>
+            <h3>Do you understand you MUST meet the age requirement to join</h3>
+            <div id="checkboxarea">
+                <input type="checkbox" id="checkbox_age" class="checkbox">
+            </div>
+            <div class="policecorruption"></div>
+            <h3>Do you have anything extra to say?</h3>
+            <div id="textareas">
+                <textarea rows="4" cols="50" class="textarea" id="textarea_extra"></textarea>
+            </div>
+            <div id="buttons">
+                <button id="submit" type="submit">Send form</button>
+                <button id="close">Close</button>
+            </div>
+        </form>
+    </div>
+    <script src="./index.js" type="text/javascript"></script>
+</body>
+
+</html>

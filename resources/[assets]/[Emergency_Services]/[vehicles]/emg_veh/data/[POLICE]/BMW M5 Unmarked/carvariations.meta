@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CVehicleModelInfoVariation>
+  <variationData>
+	  <Item>
+      <modelName>polbmwm5unm</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            12
+            12
+            12
+            12
+            134
+            134
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard Black</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="4322" />
+   </Item>		
+  </variationData>
+</CVehicleModelInfoVariation>
+
+<!--CHANGE made by Nemes-->
+
+<!-- File configured to work best with BMW M5 2018-->

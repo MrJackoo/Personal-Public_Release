@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+html {
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: transparent !important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+}
+
+.container {
+    display: block;
+    position: relative;
+    top: 75vh;
+    width: auto;
+    opacity: 0;
+}
+
+#canvas {
+    display: block;
+    margin: 50px auto;
+    width: 8.5vh;
+    height: 8.5vh;
+}
+
+.icon {
+    height: 0.1vh;
+    width: auto;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 2.75vh;
+    margin: 0 auto;
+    border-radius: 15vh; 
+}
+
+.icon > i {
+    height: 4.5vh;
+    width: auto;
+    display: block;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vh;
+    border-radius: 15vh;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0,0,0,.5);
+}
+
+.label {
+    height: 4.5vh;
+    font-family: 'Roboto';
+    text-transform: capitalize;
+    width: auto;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    top: 7.5vh;
+    font-weight: 400;
+    font-size: 1.3vh;
+    border-radius: 15vh;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0,0,0,.5);
+}

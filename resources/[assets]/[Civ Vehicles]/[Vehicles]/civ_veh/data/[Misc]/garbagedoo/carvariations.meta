@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVariation>
+  <variationData>
+     <Item>
+      <modelName>garbagedoo</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array"> <!-- Turquoise / Blue White -->
+            210
+            211
+            0
+            156
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Mouse Grey / Pearl White -->
+            6
+            112
+            0
+            156
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Sealing Wax Red / Beige Grey -->
+            30
+            198
+            0
+            156
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Blue Plate</Name>
+            <Value value="50" />
+          </Item>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="50" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="2" />
+      <sirenSettings value="9" />
+    </Item>
+	
+	    <Item>
+      <modelName>garbagedoo2</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array"> <!-- Turquoise / Blue White -->
+            210
+            211
+            0
+            156
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Mouse Grey / Pearl White -->
+            6
+            112
+            0
+            156
+          </indices>
+        </Item>
+        <Item>
+          <indices content="char_array"> <!-- Sealing Wax Red / Beige Grey -->
+            30
+            198
+            0
+            156
+          </indices>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Blue Plate</Name>
+            <Value value="50" />
+          </Item>
+          <Item>
+            <Name>Yellow Plate</Name>
+            <Value value="50" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="2" />
+      <sirenSettings value="9" />
+    </Item>
+	
+  </variationData>
+</CVehicleModelInfoVariation>

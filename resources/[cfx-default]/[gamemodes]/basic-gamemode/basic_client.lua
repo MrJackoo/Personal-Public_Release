@@ -1,0 +1,5 @@
+AddEventHandler('onClientMapStart', function()
+  exports.spawnmanager:setAutoSpawn(true)
+  DoScreenFadeOut(0)
+  exports.spawnmanager:forceRespawn()
+end)
