@@ -17,8 +17,8 @@
 ### <div align="center"> Repository Information</div>
 <div align="center">
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/pin?username=MrJackoo&show_icons=true&layout=compact&repo=Personal-Public_Release&show_owner=false&count_private=true&hide_border=true&theme=react)](https://github.com/MrJackoo/Personal-Public_Release)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=MrJackoo&repo=Personal-Public_Release&layout=compact&theme=react)](https://github.com/MrJackoo/Personal-Public_Release)
+[![Public Repository](https://github-readme-stats.vercel.app/api/pin?username=MrJackoo&show_icons=true&layout=compact&repo=Personal-Public_Release&show_owner=false&count_private=false&hide_border=false&theme=merko)](https://github.com/MrJackoo/Personal-Public_Release)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=MrJackoo&custom_title=Repository%20Code&count_private=false&repo=Personal-Public_Release&layout=compact&theme=merko)](https://github.com/MrJackoo/Personal-Public_Release)
 
 <br/>
 
