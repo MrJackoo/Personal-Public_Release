@@ -18,7 +18,7 @@
 <div align="center">
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/pin?username=MrJackoo&show_icons=true&layout=compact&repo=Personal-Public_Release&show_owner=false&count_private=true&hide_border=true&theme=react)](https://github.com/MrJackoo/Personal-Public_Release)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=MrJackoo&repo=Personal-Public_Release&layout=compact&theme=react)](https://github.com/MrJackoo/Personal-Public_Release)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=MrJackoo&count_private=false&repo=Personal-Public_Release&layout=compact&theme=react)](https://github.com/MrJackoo/Personal-Public_Release)
 
 <br/>
 
